@@ -8,8 +8,8 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-    <link rel="stylesheet" href="reveal.js/css/reveal.css">
-    <link rel="stylesheet" href="reveal.js/css/theme/night.css" id="theme">
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/night.css" id="theme">
     <link rel="stylesheet" href="theme.css">
 </head>
 
@@ -21,7 +21,7 @@
 
         <section>
             <h2>An Introduction to TensorFlow</h2>
-            <h3 style="color: #ffc520">Siavash Kavousi</h3>
+            <h3 class="active-color">Siavash Kavousi</h3>
         </section>
 
         <section>
@@ -32,7 +32,7 @@
         </section>
 
         <section>
-            <h2 style="color: #ffc520">Machine Learning</h2>
+            <h2 class="active-color">Machine Learning</h2>
             <h2>TensorFlow</h2>
             <h2>References</h2>
             <h2>Thanks</h2>
@@ -40,7 +40,7 @@
 
         <section>
             <section>
-                <h2 style="color: #ffc520">Machine Learning</h2>
+                <h2 class="active-color">Machine Learning</h2>
                 <h3>What is Machine Learning?</h3>
                 <h3>Forward Propagation</h3>
                 <h3>Backward Propagation</h3>
@@ -53,7 +53,7 @@
                 <p>Machine learning is a type of artificial intelligence (AI) that provides computers
                     with the ability to learn without being explicitly programmed</p>
             </section>
-            
+
             <section>
                 <h2>CIFAR-10 Dataset</h2>
                 <div id="cifar-img">
@@ -73,10 +73,68 @@
                 \[\begin{aligned}
                 d_1(I_1, I_2) = \sum(I_1 - I_2)
                 \end{aligned} \]
-            </section>
 
-            <section>
-                <h2></h2>
+                <div class="left-stacking">
+                    <table style="width:25%">
+                        <tr>
+                            <td>56</td>
+                            <td>39</td>
+                            <td>10</td>
+                            <td>18</td>
+                        </tr>
+                        <tr>
+                            <td>90</td>
+                            <td>23</td>
+                            <td>128</td>
+                            <td>133</td>
+                        </tr>
+                        <tr>
+                            <td>24</td>
+                            <td>26</td>
+                            <td>178</td>
+                            <td>200</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>0</td>
+                            <td>255</td>
+                            <td>220</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="left-stacking">
+                    <p> - </p>
+                </div>
+
+                <div class="left-stacking">
+                    <table style="width:25%">
+                        <tr>
+                            <td>10</td>
+                            <td>20</td>
+                            <td>24</td>
+                            <td>17</td>
+                        </tr>
+                        <tr>
+                            <td>8</td>
+                            <td>10</td>
+                            <td>89</td>
+                            <td>100</td>
+                        </tr>
+                        <tr>
+                            <td>12</td>
+                            <td>16</td>
+                            <td>178</td>
+                            <td>170</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>32</td>
+                            <td>233</td>
+                            <td>112</td>
+                        </tr>
+                    </table>
+                </div>
             </section>
         </section>
 
@@ -95,6 +153,10 @@
 
             <script type="math/tex; mode=display">
 						\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)
+
+
+
+
 
 
 
@@ -225,8 +287,8 @@
 
 </div>
 
-<script src="reveal.js/lib/js/head.min.js"></script>
-<script src="reveal.js/js/reveal.js"></script>
+<script src="lib/js/head.min.js"></script>
+<script src="js/reveal.js"></script>
 
 <script>
 
@@ -240,8 +302,8 @@
         },
 
         dependencies: [
-            {src: 'reveal.js/lib/js/classList.js'},
-            {src: 'reveal.js/plugin/math/math.js', async: true}
+            {src: 'lib/js/classList.js'},
+            {src: 'plugin/math/math.js', async: true}
         ]
     });
 

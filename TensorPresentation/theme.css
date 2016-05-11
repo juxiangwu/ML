@@ -6,3 +6,15 @@
     float: left;
     text-align: left;
 }
+
+#active-color {
+    color: #ffc520
+}
+
+table, th, td {
+    border: 1px solid white !important;
+}
+
+.left-stacking {
+    float: left;
+}
