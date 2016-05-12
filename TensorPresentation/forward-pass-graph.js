@@ -96,12 +96,7 @@ sigma.canvas.nodes.image = (function () {
 
 // Now that's the renderer has been implemented, let's generate a graph
 // to render:
-var i,
-    s,
-    img,
-    N = 8,
-    E = 13,
-    g = {
+var g = {
         nodes: [],
         edges: []
     },
@@ -111,14 +106,32 @@ var i,
     ],
     loaded = 0,
     colors = [
-        '#ffffff',
-        '#617db4',
+        '#ffffff', // White
+        '#617db4', // Blue
         '#668f3c', // Green
         '#c6583e', // Red
-        '#b956af' // Purple
+        '#b956af', // Purple
+        '#000000' // Black
     ];
 
 // Nodes
+// First Node
+g.nodes.push({
+    id: 'x0',
+    label: 'x0',
+    x: 0,
+    y: 0,
+    size: 20,
+    color: colors[0]
+});
+g.nodes.push({
+    id: 'w0',
+    label: 'w0',
+    x: 0,
+    y: 5,
+    size: 20,
+    color: colors[0]
+});
 g.nodes.push({
     id: 'n0',
     label: '+ (sum)',
@@ -127,23 +140,49 @@ g.nodes.push({
     size: 20,
     color: colors[3]
 });
+
+// Second Node
+g.nodes.push({
+    id: 'x1',
+    label: 'x1',
+    x: 0,
+    y: 15,
+    size: 20,
+    color: colors[0]
+});
+g.nodes.push({
+    id: 'w1',
+    label: 'w1',
+    x: 0,
+    y: 18,
+    size: 20,
+    color: colors[0]
+});
 g.nodes.push({
     id: 'n1',
     label: '+ (sum)',
-    x: 2,
-    y: 10,
+    x: 5,
+    y: 20,
     size: 20,
     color: colors[3]
 });
+// Third Node
 g.nodes.push({
-    id: 'n2',
-    label: '* (mul)',
-    x: 20,
-    y: 5,
+    id: 'x2',
+    label: 'x2',
+    x: 0,
+    y: 27,
     size: 20,
-    color: colors[4]
+    color: colors[0]
 });
-
+g.nodes.push({
+    id: 'w2',
+    label: 'w2',
+    x: 0,
+    y: 33,
+    size: 20,
+    color: colors[0]
+});
 g.nodes.push({
     id: 'n3',
     label: '- (sub)',
@@ -152,25 +191,27 @@ g.nodes.push({
     size: 20,
     color: colors[1]
 });
+// Fourth Node
+g.nodes.push({
+    id: 'n2',
+    label: '* (mul)',
+    x: 20,
+    y: 5,
+    size: 20,
+    color: colors[4]
+});
+// Fifth Node
 g.nodes.push({
     id: 'n4',
-    label: '- (sub)',
-    x: 5,
-    y: 40,
-    size: 20,
-    color: colors[1]
-});
-g.nodes.push({
-    id: 'n5',
     label: '* (mul)',
     x: 20,
     y: 35,
     size: 20,
     color: colors[4]
 });
-
+// Sixth Node
 g.nodes.push({
-    id: 'n6',
+    id: 'n5',
     label: 'exp',
     x: 30,
     y: 25,
@@ -178,11 +219,38 @@ g.nodes.push({
     color: colors[2]
 });
 
+// ******************************************* //
 // Edges
+// First Node edges
+g.edges.push({
+    id: 'ee0',
+    source: 'x0',
+    target: 'n0',
+    size: 20
+});
+g.edges.push({
+    id: 'ee1',
+    source: 'w0',
+    target: 'n0',
+    size: 20
+});
 g.edges.push({
     id: 'e0',
     source: 'n0',
     target: 'n2',
+    size: 20
+});
+// Second Node edges
+g.edges.push({
+    id: 'ee2',
+    source: 'x1',
+    target: 'n1',
+    size: 20
+});
+g.edges.push({
+    id: 'ee3',
+    source: 'w1',
+    target: 'n1',
     size: 20
 });
 g.edges.push({
@@ -191,30 +259,37 @@ g.edges.push({
     target: 'n2',
     size: 20
 });
-
+// Third Node edges
 g.edges.push({
-    id: 'e2',
-    source: 'n4',
-    target: 'n5',
+    id: 'ee4',
+    source: 'x2',
+    target: 'n3',
     size: 20
 });
 g.edges.push({
-    id: 'e3',
+    id: 'ee5',
+    source: 'w2',
+    target: 'n3',
+    size: 20
+});
+g.edges.push({
+    id: 'e6',
     source: 'n3',
+    target: 'n4',
+    size: 20
+});
+// Fourth Node
+g.edges.push({
+    id: 'e7',
+    source: 'n2',
     target: 'n5',
     size: 20
 });
-
+// Fifth Node
 g.edges.push({
     id: 'e4',
-    source: 'n2',
-    target: 'n6',
-    size: 20
-});
-g.edges.push({
-    id: 'e5',
-    source: 'n5',
-    target: 'n6',
+    source: 'n4',
+    target: 'n5',
     size: 20
 });
 
