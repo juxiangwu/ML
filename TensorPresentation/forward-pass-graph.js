@@ -106,12 +106,8 @@ var i,
         edges: []
     },
     urls = [
-        'img/img1.png',
-        'img/img2.png',
-        'img/img3.png',
-        'img/img4.png',
         'img/plus_sym.jpg',
-        'img/sub_sym.png',
+        'img/sub_sym.png'
     ],
     loaded = 0,
     colors = [
@@ -122,41 +118,46 @@ var i,
         '#b956af' // Purple
     ];
 
+// Nodes
 g.nodes.push({
     id: 'n0',
     type: 'image',
-    url: urls[4],
+    url: urls[0],
     x: Math.random(),
     y: Math.random(),
-    size: Math.random(),
+    size: 20,
     color: colors[3]
 });
-
 g.nodes.push({
     id: 'n1',
     type: 'image',
-    url: urls[4],
+    url: urls[0],
     x: Math.random(),
     y: Math.random(),
-    size: Math.random(),
-    color: colors[Math.floor(Math.random() * colors.length)]
+    size: 20,
+    color: colors[3]
+});
+g.nodes.push({
+    id: 'n2',
+    type: 'image',
+    url: urls[1],
+    x: Math.random(),
+    y: Math.random(),
+    size: 20,
+    color: colors[3]
 });
 
-// g.nodes.push({
-//     id: 'n1',
-//     label: 'Node 1',
-//     type: img ? 'image' : 'def',
-//     url: img ? urls[Math.floor(Math.random() * urls.length)] : null,
-//     x: Math.random(),
-//     y: Math.random(),
-//     size: Math.random(),
-//     color: colors[Math.floor(Math.random() * colors.length)]
-// });
-
+// Edges
 g.edges.push({
     id: 'e0',
     source: 'n0',
-    target: 'n1',
+    target: 'n2',
+    size: 20
+});
+g.edges.push({
+    id: 'e1',
+    source: 'n1',
+    target: 'n2',
     size: 20
 });
 
