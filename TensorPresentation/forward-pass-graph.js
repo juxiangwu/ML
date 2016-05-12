@@ -108,7 +108,6 @@ var i,
     urls = [
         'img/plus_sym.jpg',
         'img/sub_sym.png',
-        'img/mul_sym.png'
     ],
     loaded = 0,
     colors = [
@@ -122,9 +121,7 @@ var i,
 // Nodes
 g.nodes.push({
     id: 'n0',
-    type: 'image',
-    label: 'node0',
-    url: urls[0],
+    label: '+ (sum)',
     x: 5,
     y: 0,
     size: 20,
@@ -132,8 +129,7 @@ g.nodes.push({
 });
 g.nodes.push({
     id: 'n1',
-    type: 'image',
-    url: urls[0],
+    label: '+ (sum)',
     x: 2,
     y: 10,
     size: 20,
@@ -141,50 +137,45 @@ g.nodes.push({
 });
 g.nodes.push({
     id: 'n2',
-    type: 'image',
-    url: urls[2],
+    label: '* (mul)',
     x: 20,
     y: 5,
     size: 20,
-    color: colors[3]
+    color: colors[4]
 });
 
 g.nodes.push({
     id: 'n3',
-    type: 'image',
-    url: urls[0],
+    label: '- (sub)',
     x: 5,
     y: 30,
     size: 20,
-    color: colors[3]
+    color: colors[1]
 });
 g.nodes.push({
     id: 'n4',
-    type: 'image',
-    url: urls[0],
+    label: '- (sub)',
     x: 5,
     y: 40,
     size: 20,
-    color: colors[3]
+    color: colors[1]
 });
 g.nodes.push({
     id: 'n5',
-    type: 'image',
-    url: urls[1],
+    label: '* (mul)',
     x: 20,
     y: 35,
     size: 20,
-    color: colors[3]
+    color: colors[4]
 });
 
 g.nodes.push({
     id: 'n6',
-    type: 'image',
-    url: urls[0],
+    label: 'exp',
     x: 30,
     y: 25,
     size: 20,
-    color: colors[3]
+    color: colors[2]
 });
 
 // Edges
@@ -214,18 +205,18 @@ g.edges.push({
     size: 20
 });
 
-// g.edges.push({
-//     id: 'e4',
-//     source: 'n2',
-//     target: 'n6',
-//     size: 20
-// });
-// g.edges.push({
-//     id: 'e5',
-//     source: 'n5',
-//     target: 'n6',
-//     size: 20
-// });
+g.edges.push({
+    id: 'e4',
+    source: 'n2',
+    target: 'n6',
+    size: 20
+});
+g.edges.push({
+    id: 'e5',
+    source: 'n5',
+    target: 'n6',
+    size: 20
+});
 
 // Generate a random graph, with ~30% nodes having the type "image":
 //    for (i = 0; i < N; i++) {
