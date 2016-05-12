@@ -1,5 +1,53 @@
 <!doctype html>
-<html lang="en" xmlns:color="http://www.w3.org/1999/xhtml">
+
+<!-- START SIGMA IMPORTS -->
+<script src="sigma/src/sigma.core.js"></script>
+<script src="sigma/src/conrad.js"></script>
+<script src="sigma/src/utils/sigma.utils.js"></script>
+<script src="sigma/src/utils/sigma.polyfills.js"></script>
+<script src="sigma/src/sigma.settings.js"></script>
+<script src="sigma/src/classes/sigma.classes.dispatcher.js"></script>
+<script src="sigma/src/classes/sigma.classes.configurable.js"></script>
+<script src="sigma/src/classes/sigma.classes.graph.js"></script>
+<script src="sigma/src/classes/sigma.classes.camera.js"></script>
+<script src="sigma/src/classes/sigma.classes.quad.js"></script>
+<script src="sigma/src/classes/sigma.classes.edgequad.js"></script>
+<script src="sigma/src/captors/sigma.captors.mouse.js"></script>
+<script src="sigma/src/captors/sigma.captors.touch.js"></script>
+<script src="sigma/src/renderers/sigma.renderers.canvas.js"></script>
+<script src="sigma/src/renderers/sigma.renderers.webgl.js"></script>
+<script src="sigma/src/renderers/sigma.renderers.svg.js"></script>
+<script src="sigma/src/renderers/sigma.renderers.def.js"></script>
+<script src="sigma/src/renderers/webgl/sigma.webgl.nodes.def.js"></script>
+<script src="sigma/src/renderers/webgl/sigma.webgl.nodes.fast.js"></script>
+<script src="sigma/src/renderers/webgl/sigma.webgl.edges.def.js"></script>
+<script src="sigma/src/renderers/webgl/sigma.webgl.edges.fast.js"></script>
+<script src="sigma/src/renderers/webgl/sigma.webgl.edges.arrow.js"></script>
+<script src="sigma/src/renderers/canvas/sigma.canvas.labels.def.js"></script>
+<script src="sigma/src/renderers/canvas/sigma.canvas.hovers.def.js"></script>
+<script src="sigma/src/renderers/canvas/sigma.canvas.nodes.def.js"></script>
+<script src="sigma/src/renderers/canvas/sigma.canvas.edges.def.js"></script>
+<script src="sigma/src/renderers/canvas/sigma.canvas.edges.curve.js"></script>
+<script src="sigma/src/renderers/canvas/sigma.canvas.edges.arrow.js"></script>
+<script src="sigma/src/renderers/canvas/sigma.canvas.edges.curvedArrow.js"></script>
+<script src="sigma/src/renderers/canvas/sigma.canvas.edgehovers.def.js"></script>
+<script src="sigma/src/renderers/canvas/sigma.canvas.edgehovers.curve.js"></script>
+<script src="sigma/src/renderers/canvas/sigma.canvas.edgehovers.arrow.js"></script>
+<script src="sigma/src/renderers/canvas/sigma.canvas.edgehovers.curvedArrow.js"></script>
+<script src="sigma/src/renderers/canvas/sigma.canvas.extremities.def.js"></script>
+<script src="sigma/src/renderers/svg/sigma.svg.utils.js"></script>
+<script src="sigma/src/renderers/svg/sigma.svg.nodes.def.js"></script>
+<script src="sigma/src/renderers/svg/sigma.svg.edges.def.js"></script>
+<script src="sigma/src/renderers/svg/sigma.svg.edges.curve.js"></script>
+<script src="sigma/src/renderers/svg/sigma.svg.labels.def.js"></script>
+<script src="sigma/src/renderers/svg/sigma.svg.hovers.def.js"></script>
+<script src="sigma/src/middlewares/sigma.middlewares.rescale.js"></script>
+<script src="sigma/src/middlewares/sigma.middlewares.copy.js"></script>
+<script src="sigma/src/misc/sigma.misc.animation.js"></script>
+<script src="sigma/src/misc/sigma.misc.bindEvents.js"></script>
+<script src="sigma/src/misc/sigma.misc.bindDOMEvents.js"></script>
+<script src="sigma/src/misc/sigma.misc.drawHovers.js"></script>
+<!-- END SIGMA IMPORTS -->
 
 <head>
     <meta charset="utf-8">
@@ -104,7 +152,7 @@
                 </div>
 
                 <div class="left-stacking">
-                    <p> - </p>
+                    <h2> &minus; </h2>
                 </div>
 
                 <div class="left-stacking">
@@ -135,6 +183,64 @@
                         </tr>
                     </table>
                 </div>
+
+                <div class="left-stacking">
+                    <h2> &equals; </h2>
+                </div>
+
+                <div class="left-stacking">
+                    <table style="width:25%">
+                        <tr>
+                            <td>46</td>
+                            <td>12</td>
+                            <td>14</td>
+                            <td>1</td>
+                        </tr>
+                        <tr>
+                            <td>82</td>
+                            <td>13</td>
+                            <td>39</td>
+                            <td>33</td>
+                        </tr>
+                        <tr>
+                            <td>12</td>
+                            <td>10</td>
+                            <td>0</td>
+                            <td>30</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>32</td>
+                            <td>22</td>
+                            <td>108</td>
+                        </tr>
+                    </table>
+                </div>
+            </section>
+
+            <section style="height: 600px">
+                <h2>Forward Propagation</h2>
+                <div id="container" style="position:absolute; width: 500px;height: 500px;">
+                    <script src="forward-pass-graph.js"></script>
+                    <div id="graph-container" ></div>
+                </div>
+            </section>
+
+            <section>
+                <h2>Backward Propagation</h2>
+
+
+            </section>
+        </section>
+
+        <section>
+            <section>
+                <h2 class="active-color">TensorFlow</h2>
+                <h3>Features</h3>
+                <h3>Graph</h3>
+                <h3>Node</h3>
+                <h3>Edge</h3>
+                <h3>Computational Environment</h3>
             </section>
         </section>
 
@@ -153,9 +259,6 @@
 
             <script type="math/tex; mode=display">
 						\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)
-
-
-
 
 
 
