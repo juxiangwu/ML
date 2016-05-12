@@ -218,29 +218,6 @@ g.edges.push({
     size: 20
 });
 
-// Generate a random graph, with ~30% nodes having the type "image":
-//    for (i = 0; i < N; i++) {
-//        img = Math.random() >= 0.7;
-//        g.nodes.push({
-//            id: 'n' + i,
-//            label: 'Node ' + i,
-//            type: img ? 'image' : 'def',
-//            url: img ? urls[Math.floor(Math.random() * urls.length)] : null,
-//            x: Math.random(),
-//            y: Math.random(),
-//            size: Math.random(),
-//            color: colors[Math.floor(Math.random() * colors.length)]
-//        });
-//    }
-
-//    for (i = 0; i < E; i++)
-//        g.edges.push({
-//            id: 'e' + i,
-//            source: 'n' + (Math.random() * N | 0),
-//            target: 'n' + (Math.random() * N | 0),
-//            size: Math.random()
-//        });
-
 // Then, wait for all images to be loaded before instanciating sigma:
 urls.forEach(function (url) {
     sigma.canvas.nodes.image.cache(
