@@ -8,7 +8,7 @@
 }
 
 .active-color {
-    color: #ffc520
+    color: #ffc520 !important;
 }
 
 table, th, td {
