@@ -2,114 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="989f96a8-111a-47a5-a9bc-89bf5aca18d6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PresentationPlan.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reveal.js/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reveal.js/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reveal.js/CONTRIBUTING.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reveal.js/Gruntfile.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reveal.js/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reveal.js/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reveal.js/bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reveal.js/css/print/paper.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reveal.js/css/print/pdf.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reveal.js/css/reveal.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reveal.js/css/reveal.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reveal.js/css/theme/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reveal.js/css/theme/beige.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reveal.js/css/theme/black.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reveal.js/css/theme/blood.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reveal.js/css/theme/league.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reveal.js/css/theme/moon.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reveal.js/css/theme/night.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reveal.js/css/theme/serif.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reveal.js/css/theme/simple.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reveal.js/css/theme/sky.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reveal.js/css/theme/solarized.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reveal.js/css/theme/source/beige.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reveal.js/css/theme/source/black.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reveal.js/css/theme/source/blood.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reveal.js/css/theme/source/league.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reveal.js/css/theme/source/moon.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reveal.js/css/theme/source/night.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reveal.js/css/theme/source/serif.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reveal.js/css/theme/source/simple.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reveal.js/css/theme/source/sky.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reveal.js/css/theme/source/solarized.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reveal.js/css/theme/source/white.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reveal.js/css/theme/template/mixins.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reveal.js/css/theme/template/settings.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reveal.js/css/theme/template/theme.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reveal.js/css/theme/white.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reveal.js/demo.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reveal.js/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reveal.js/js/reveal.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reveal.js/lib/css/zenburn.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reveal.js/lib/font/league-gothic/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reveal.js/lib/font/league-gothic/league-gothic.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reveal.js/lib/font/league-gothic/league-gothic.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reveal.js/lib/font/league-gothic/league-gothic.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reveal.js/lib/font/league-gothic/league-gothic.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reveal.js/lib/font/source-sans-pro/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reveal.js/lib/font/source-sans-pro/source-sans-pro-italic.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reveal.js/lib/font/source-sans-pro/source-sans-pro-italic.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reveal.js/lib/font/source-sans-pro/source-sans-pro-italic.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reveal.js/lib/font/source-sans-pro/source-sans-pro-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reveal.js/lib/font/source-sans-pro/source-sans-pro-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reveal.js/lib/font/source-sans-pro/source-sans-pro-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reveal.js/lib/font/source-sans-pro/source-sans-pro-semibold.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reveal.js/lib/font/source-sans-pro/source-sans-pro-semibold.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reveal.js/lib/font/source-sans-pro/source-sans-pro-semibold.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reveal.js/lib/font/source-sans-pro/source-sans-pro-semibolditalic.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reveal.js/lib/font/source-sans-pro/source-sans-pro-semibolditalic.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reveal.js/lib/font/source-sans-pro/source-sans-pro-semibolditalic.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reveal.js/lib/font/source-sans-pro/source-sans-pro.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reveal.js/lib/js/classList.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reveal.js/lib/js/head.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reveal.js/lib/js/html5shiv.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reveal.js/npm-debug.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reveal.js/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reveal.js/plugin/highlight/highlight.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reveal.js/plugin/markdown/example.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reveal.js/plugin/markdown/example.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reveal.js/plugin/markdown/markdown.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reveal.js/plugin/markdown/marked.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reveal.js/plugin/math/math.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reveal.js/plugin/multiplex/client.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reveal.js/plugin/multiplex/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reveal.js/plugin/multiplex/master.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reveal.js/plugin/multiplex/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reveal.js/plugin/notes-server/client.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reveal.js/plugin/notes-server/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reveal.js/plugin/notes-server/notes.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reveal.js/plugin/notes/notes.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reveal.js/plugin/notes/notes.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reveal.js/plugin/print-pdf/print-pdf.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reveal.js/plugin/search/search.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reveal.js/plugin/zoom-js/zoom.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reveal.js/test/examples/assets/image1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reveal.js/test/examples/assets/image2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reveal.js/test/examples/barebones.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reveal.js/test/examples/embedded-media.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reveal.js/test/examples/math.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reveal.js/test/examples/slide-backgrounds.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reveal.js/test/examples/slide-transitions.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reveal.js/test/qunit-1.12.0.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reveal.js/test/qunit-1.12.0.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reveal.js/test/test-markdown-element-attributes.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reveal.js/test/test-markdown-element-attributes.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reveal.js/test/test-markdown-slide-attributes.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reveal.js/test/test-markdown-slide-attributes.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reveal.js/test/test-markdown.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reveal.js/test/test-markdown.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reveal.js/test/test-pdf.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reveal.js/test/test-pdf.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reveal.js/test/test.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reveal.js/test/test.js" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/theme.css" afterPath="$PROJECT_DIR$/theme.css" />
     </list>
     <ignored path="TensorPresentation.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -133,8 +28,8 @@
       <file leaf-file-name="theme.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/theme.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+            <state relative-caret-position="180">
+              <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -143,12 +38,27 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="106" column="30" selection-start-line="106" selection-start-column="30" selection-end-line="106" selection-end-column="30" />
+            <state relative-caret-position="18">
+              <caret line="280" column="33" selection-start-line="280" selection-start-column="33" selection-end-line="280" selection-end-column="33" />
               <folding>
                 <element signature="n#style#0;n#table#0;n#div#0;n#section#3;n#section#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#table#0;n#div#2;n#section#3;n#section#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#table#0;n#div#4;n#section#3;n#section#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#section#4;n#section#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#section#5;n#section#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#section#6;n#section#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#section#6;n#section#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="forward-pass-graph.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/forward-pass-graph.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3258">
+              <caret line="181" column="9" selection-start-line="181" selection-start-column="9" selection-end-line="181" selection-end-column="9" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -158,8 +68,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="package_json" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -170,6 +82,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/PresentationPlan.html" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/test2.html" />
+        <option value="$PROJECT_DIR$/test.html" />
+        <option value="$PROJECT_DIR$/forward-pass-graph.js" />
         <option value="$PROJECT_DIR$/theme.css" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
@@ -212,6 +128,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -220,19 +137,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TensorPresentation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TensorPresentation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -243,6 +149,7 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Academic Courses/Research Methods &amp; Report Writings/Presentation" />
   </component>
   <component name="RunManager" selected="JavaScript Debug.PresentationPlan.html">
     <configuration default="false" name="PresentationPlan.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/TensorPresentation/PresentationPlan.html">
@@ -324,21 +231,108 @@
       <option name="presentableId" value="Default" />
       <updated>1462981039640</updated>
       <workItem from="1462981041798" duration="5078000" />
-      <workItem from="1462990042079" duration="2361000" />
+      <workItem from="1462990042079" duration="5816000" />
+      <workItem from="1463027162287" duration="4170000" />
+      <workItem from="1463079796943" duration="11512000" />
+      <workItem from="1463091402664" duration="4506000" />
+      <workItem from="1463118131250" duration="9552000" />
+      <workItem from="1463133846876" duration="28000" />
+      <workItem from="1463133932655" duration="3257000" />
+      <workItem from="1463149387673" duration="331000" />
+      <workItem from="1463173012547" duration="600000" />
+      <workItem from="1463346444447" duration="106000" />
     </task>
+    <task id="LOCAL-00001" summary="Tries to embed a simple graph in slide :|">
+      <created>1463088302371</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1463088302371</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Tests with three nodes and two edges graph (success :)">
+      <created>1463088647896</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1463088647896</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Fails drawing graph :((">
+      <created>1463090989310</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1463090989310</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Introduces the first working version of graph in slide :D&#10;">
+      <created>1463091981760</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1463091981760</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Removes redundant lines">
+      <created>1463092029140</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1463092029140</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Adds forward and backward pass slides">
+      <created>1463094426344</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1463094426344</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Adds TensorFlow slides">
+      <created>1463095801063</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1463095801063</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Adds code (syntax highlighted) -stable :D">
+      <created>1463128907748</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1463128907748</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Fixes color overwrite issues">
+      <created>1463128941061</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1463128941061</updated>
+    </task>
+    <task id="LOCAL-00010" summary="20 Minutes before presentation, I think that's the last commit">
+      <created>1463137068466</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1463137068466</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Misses one title">
+      <created>1463149466781</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1463149466781</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7439000" />
+    <option name="totallyTimeSpent" value="44956000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="55" y="24" width="1311" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19332299" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19224806" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3271605" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -348,7 +342,7 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -364,12 +358,28 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="Tries to embed a simple graph in slide :|" />
+    <MESSAGE value="Tests with three nodes and two edges graph (success :)" />
+    <MESSAGE value="Fails drawing graph :((" />
+    <MESSAGE value="Introduces the first working version of graph in slide :D&#10;" />
+    <MESSAGE value="Removes redundant lines" />
+    <MESSAGE value="Adds forward and backward pass slides" />
+    <MESSAGE value="Adds TensorFlow slides" />
+    <MESSAGE value="Adds code (syntax highlighted) -stable :D" />
+    <MESSAGE value="Fixes color overwrite issues" />
+    <MESSAGE value="20 Minutes before presentation, I think that's the last commit" />
+    <MESSAGE value="Misses one title" />
+    <option name="LAST_COMMIT_MESSAGE" value="Misses one title" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/PresentationPlan.html">
+    <entry file="file://$PROJECT_DIR$/theme.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -379,54 +389,294 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/theme.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/reveal.js/test/examples/slide-backgrounds.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/reveal.js/test/examples/math.html">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/reveal.js/test/examples/math.html" />
-    <entry file="file://$PROJECT_DIR$/reveal.js/test/examples/slide-backgrounds.html" />
-    <entry file="file://$PROJECT_DIR$/PresentationPlan.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="78" column="20" selection-start-line="78" selection-start-column="20" selection-end-line="78" selection-end-column="20" />
+          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/theme.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+        <state relative-caret-position="180">
+          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="106" column="30" selection-start-line="106" selection-start-column="30" selection-end-line="106" selection-end-column="30" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#table#0;n#div#0;n#section#3;n#section#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#table#0;n#div#2;n#section#3;n#section#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#div#4;n#section#3;n#section#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#section#4;n#section#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#section#5;n#section#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#section#6;n#section#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#section#6;n#section#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/forward-pass-graph.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3258">
+          <caret line="181" column="9" selection-start-line="181" selection-start-column="9" selection-end-line="181" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/theme.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#table#0;n#div#0;n#section#3;n#section#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#div#2;n#section#3;n#section#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#div#4;n#section#3;n#section#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#section#4;n#section#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#section#5;n#section#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#section#6;n#section#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#section#6;n#section#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/forward-pass-graph.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3258">
+          <caret line="181" column="9" selection-start-line="181" selection-start-column="9" selection-end-line="181" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/theme.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#table#0;n#div#0;n#section#3;n#section#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#div#2;n#section#3;n#section#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#div#4;n#section#3;n#section#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#section#4;n#section#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#section#5;n#section#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#section#6;n#section#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#section#6;n#section#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/forward-pass-graph.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3258">
+          <caret line="181" column="9" selection-start-line="181" selection-start-column="9" selection-end-line="181" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/theme.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#table#0;n#div#0;n#section#3;n#section#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#div#2;n#section#3;n#section#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#div#4;n#section#3;n#section#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#section#4;n#section#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#section#5;n#section#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#section#6;n#section#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#section#6;n#section#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/forward-pass-graph.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3258">
+          <caret line="181" column="9" selection-start-line="181" selection-start-column="9" selection-end-line="181" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/theme.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#table#0;n#div#0;n#section#3;n#section#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#div#2;n#section#3;n#section#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#div#4;n#section#3;n#section#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#section#4;n#section#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#section#5;n#section#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#section#6;n#section#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#section#6;n#section#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/forward-pass-graph.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4896">
+          <caret line="272" column="19" selection-start-line="272" selection-start-column="19" selection-end-line="272" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/theme.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4050">
+          <caret line="225" column="0" selection-start-line="225" selection-start-column="0" selection-end-line="225" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#table#0;n#div#0;n#section#3;n#section#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#div#2;n#section#3;n#section#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#div#4;n#section#3;n#section#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#section#4;n#section#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#section#5;n#section#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#section#6;n#section#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#section#6;n#section#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json" />
+    <entry file="file://$PROJECT_DIR$/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/theme.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#table#0;n#div#0;n#section#3;n#section#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#div#2;n#section#3;n#section#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#div#4;n#section#3;n#section#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#section#4;n#section#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#section#5;n#section#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#section#6;n#section#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#section#6;n#section#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PresentationPlan.html" />
+    <entry file="file://$PROJECT_DIR$/theme.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reveal.js/test/examples/slide-backgrounds.html" />
+    <entry file="file://$PROJECT_DIR$/reveal.js/test/examples/math.html" />
+    <entry file="file://$PROJECT_DIR$/reveal.js/test/examples/math.html" />
+    <entry file="file://$PROJECT_DIR$/reveal.js/test/examples/slide-backgrounds.html" />
+    <entry file="file://$PROJECT_DIR$/PresentationPlan.html" />
+    <entry file="file://$PROJECT_DIR$/package.json" />
+    <entry file="file://$PROJECT_DIR$/test2.html" />
+    <entry file="file://$PROJECT_DIR$/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="50" column="5" selection-start-line="0" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="564" column="9" selection-start-line="564" selection-start-column="9" selection-end-line="564" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugin/search/search.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/theme.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="280" column="33" selection-start-line="280" selection-start-column="33" selection-end-line="280" selection-end-column="33" />
+          <folding>
+            <element signature="n#style#0;n#table#0;n#div#0;n#section#3;n#section#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#div#2;n#section#3;n#section#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#div#4;n#section#3;n#section#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#section#4;n#section#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#section#5;n#section#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#section#6;n#section#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#section#6;n#section#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/forward-pass-graph.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3258">
+          <caret line="181" column="9" selection-start-line="181" selection-start-column="9" selection-end-line="181" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
