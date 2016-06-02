@@ -1,1 +1,7 @@
 DeepConvNet (MNIST)/.idea/
+TensorPresentation/.idea/
+HOG/.idea/
+AlexNet/.idea/
+cifar10/.idea/
+DeepConvNet (MNIST)/data-*
+DeepConvNet (MNIST)/checkpoint
