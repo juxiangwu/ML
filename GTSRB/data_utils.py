@@ -6,7 +6,6 @@ import cv2
 
 FLAGS = tf.app.flags.FLAGS
 
-tf.app.flags.DEFINE_integer()
 tf.app.flags.DEFINE_string('data_dir', os.getcwd() + '/datasets/gtsrb_training',
                            """Path to the GTSRB data directory.""")
 
