@@ -13,15 +13,17 @@ tf.app.flags.DEFINE_integer('num_classes', 43, """Number of classes in GTSRB tra
 
 
 def load_gtsrb_data(path, cut_roi=True):
-    images = {'x': [], 'y': []}
-    for i in xrange(FLAGS.num_classes):
+    x, y = [], []
+    for i in xrange(1):
         prefix = path + '/' + format(i, '05d') + '/'
         # annotations file
         with open(prefix + 'GT-' + format(i, '05d') + '.csv') as gt_file:
-            datadict = _parse_annotations(prefix, gt_file, cut_roi)
-            images['x'].extend(datadict['x']), images['y'].extend(datadict['y'])
+            xx, yy = _parse_annotations(prefix, gt_file, cut_roi)
+            x.append(xx), y.append(yy)
 
-    return images
+    x = np.concatenate(x)
+    y = np.concatenate(y)
+    return x, y
 
 
 def _parse_annotations(prefix, gt_file, cut_roi):
@@ -29,14 +31,16 @@ def _parse_annotations(prefix, gt_file, cut_roi):
     # skip header
     reader.next()
 
-    images = {'x': [], 'y': []}
+    x, y = [], []
     for row in reader:
         # first column of csv file is filename
         image = cv2.imread(prefix + row[0])
         # remove regions surrounding the actual traffic sign
         if cut_roi:
             image = image[np.int(row[4]):np.int(row[6]), np.int(row[3]):np.int(row[5]), :]
-        images['x'].append(image)
-        images['y'].append(row[7])
+        # scale each image to 32 * 32
+        image = cv2.resize(image, (32, 32))
+        x.append(image)
+        y.append(row[7])
 
-    return images
+    return x, y
