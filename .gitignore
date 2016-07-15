@@ -1,12 +1,7 @@
 .gitignore
 *.pdf
 *.pyc
-AlexNet/.idea
-cifar10/.idea
-DeepConvNet (MNIST)/.idea
-GTSRB/.idea
-HOG/.idea
-TensorPresentation/.idea
+*/.idea
 DeepConvNet (MNIST)/data-*
 DeepConvNet (MNIST)/checkpoint
 Books and slides/
