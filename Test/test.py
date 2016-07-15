@@ -166,17 +166,52 @@ from matplotlib import pyplot as plt
 # cv2.destroyAllWindows()
 
 # Uses gradient filters or High-pass filters, Sobel, Scharr, Laplacian
-img = cv2.imread('sudoku.png')
-laplacian = cv2.Laplacian(img, cv2.CV_64F)
-sobelx = cv2.Sobel(img, cv2.CV_64F, 1, 0, ksize=5)
-sobely = cv2.Sobel(img, cv2.CV_64F, 0, 1, ksize=5)
+# img = cv2.imread('sudoku.png')
+# laplacian = cv2.Laplacian(img, cv2.CV_64F)
+# sobelx = cv2.Sobel(img, cv2.CV_64F, 1, 0, ksize=5)
+# sobely = cv2.Sobel(img, cv2.CV_64F, 0, 1, ksize=5)
+#
+# plt.subplot(2, 2, 1), plt.imshow(img, cmap='gray')
+# plt.title('Original'), plt.xticks([]), plt.yticks([])
+# plt.subplot(2, 2, 2), plt.imshow(laplacian, cmap='gray')
+# plt.title('Laplacian'), plt.xticks([]), plt.yticks([])
+# plt.subplot(2, 2, 3), plt.imshow(sobelx, cmap='gray')
+# plt.title('Sobel X'), plt.xticks([]), plt.yticks([])
+# plt.subplot(2, 2, 4), plt.imshow(sobely, cmap='gray')
+# plt.title('Sobel Y'), plt.xticks([]), plt.yticks([])
+# plt.show()
 
-plt.subplot(2, 2, 1), plt.imshow(img, cmap='gray')
-plt.title('Original'), plt.xticks([]), plt.yticks([])
-plt.subplot(2, 2, 2), plt.imshow(laplacian, cmap='gray')
-plt.title('Laplacian'), plt.xticks([]), plt.yticks([])
-plt.subplot(2, 2, 3), plt.imshow(sobelx, cmap='gray')
-plt.title('Sobel X'), plt.xticks([]), plt.yticks([])
-plt.subplot(2, 2, 4), plt.imshow(sobely, cmap='gray')
-plt.title('Sobel Y'), plt.xticks([]), plt.yticks([])
+# Canny Edge Detection
+# img = cv2.imread('google.jpg')
+# edges = cv2.Canny(img, 100, 300, L2gradient=True)
+# plt.subplot(121), plt.imshow(img, cmap='gray')
+# plt.title('Original Image'), plt.xticks([]), plt.yticks([])
+# plt.subplot(122), plt.imshow(edges, cmap='gray')
+# plt.title('Edge Image'), plt.xticks([]), plt.yticks([])
+# plt.show()
+#
+#
+# img = cv2.imread('android.jpg', 0)
+# ret, thresh = cv2.threshold(img, 127, 255, 0)
+# contours, hierarchy = cv2.findContours(thresh, 1, 2)
+# cnt = contours[0]
+# M = cv2.moments(cnt)
+# print M
+
+# Histogram Equalization
+img = cv2.imread('kitten.jpg', 0)
+cv2.imshow('image', img)
+hist, bins = np.histogram(img.flatten(), 256, [0, 256])
+cdf = hist.cumsum()
+
+cdf_m = np.ma.masked_equal(cdf, 0)
+cdf_m = (cdf_m - cdf_m.min()) * 255 / (cdf_m.max() - cdf_m.min())
+cdf = np.ma.filled(cdf_m, 0).astype('uint8')
+
+# cdf_normalized = cdf * hist.max() / cdf.max()
+# plt.plot(cdf_normalized, color='b')
+plt.plot(cdf, color='b')
+plt.hist(img.flatten(), 256, [0, 256], color='r')
+plt.xlim([0, 256])
+plt.legend(('cdf', 'histogram'), loc='upper left')
 plt.show()
