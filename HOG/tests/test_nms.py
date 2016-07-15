@@ -5,18 +5,18 @@ import cv2
 # construct a list containing the images that will be examined
 # along with their respective bounding boxes
 images = [
-    ("images/audrey.jpg", np.array([
+    ("../images/audrey.jpg", np.array([
         (12, 84, 140, 212),
         (24, 84, 152, 212),
         (36, 84, 164, 212),
         (12, 96, 140, 224),
         (24, 96, 152, 224),
         (24, 108, 152, 236)])),
-    ("images/bksomels.jpg", np.array([
+    ("../images/bksomels.jpg", np.array([
         (114, 60, 178, 124),
         (120, 60, 184, 124),
         (114, 66, 178, 130)])),
-    ("images/gpripe.jpg", np.array([
+    ("../images/gpripe.jpg", np.array([
         (12, 30, 76, 94),
         (12, 36, 76, 100),
         (72, 36, 200, 164),
